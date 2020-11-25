@@ -1,0 +1,59 @@
+header{
+  height: 60px;
+  margin-top: 10px;
+}
+
+.alto{
+  height: 100%;
+}
+
+.pestañas{
+  margin-top: 10px;
+}
+
+.pestaña{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+h3{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.imgBodega{
+  max-width: 800px;
+  height: auto;
+  margin: 0px auto;
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+
+.imgVino{
+  margin: 70px auto 70px auto;
+  display:block;
+}
+
+
+main{
+  height: 100%;
+}
+
+.colum{
+  margin: 15px 0 0 0 ;
+}
+
+.a16{
+  text-align: center;
+  margin: auto;
+}
