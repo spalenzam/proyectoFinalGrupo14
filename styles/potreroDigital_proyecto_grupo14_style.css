@@ -1,23 +1,44 @@
+@font-face
+{
+font-family: “Spire”;
+src: url(“fonts/Spire/SPIREQ_L.eot”);
+src: url(“fonts/Spire/SPIREQ_L.eot”) format(“embedded-opentype”),
+url(“fonts/Spire/spireq_l-webfont.woff”) format(“woff”),
+url(“fonts/Spire/SPIREQ_L.ttf”) format(“truetype”),
+url(“fonts/Spire/SPIREQ_L.svg”) format(“svg”);
+}
+
+.catalogo{
+  margin: 15px 0px 0px 7px;
+  font-family:”Spire”;
+  font-size: 60px;
+  text-align: center;
+}
+
 header{
-  height: 60px;
+  height: 120px;
   margin-top: 10px;
+  background-color: #F8F9F9;
 }
 
 .alto{
-  height: 100%;
-}
-
-.pestañas{
-  margin-top: 10px;
+  height: 50%;
 }
 
 .pestaña{
   text-align: center;
   display: inline-block;
   width: 100%;
+  font-family:”Spire”;
+  font-size: 15px;
+  margin-top: 25px;
+  color: #424949;
 }
 
 h2{
+  font-family:”Spire”;
+  font-size: 40px;
+  margin-top: 20px;
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -40,8 +61,13 @@ h3{
 
 
 .imgVino{
-  margin: 70px auto 70px auto;
+  margin: 70px auto 10px auto;
   display:block;
+}
+
+.txtVino{
+  display:block;
+  text-align: center;
 }
 
 
@@ -56,4 +82,14 @@ main{
 .a16{
   text-align: center;
   margin: auto;
+}
+
+.p1{
+  text-align: justify;
+  text-align: center;
+  margin: auto;
+}
+
+footer{
+  margin: 50px 0px 0px 0px;
 }
