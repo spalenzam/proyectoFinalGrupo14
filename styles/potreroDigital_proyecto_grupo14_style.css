@@ -8,19 +8,17 @@ url(“fonts/Spire/SPIREQ_L.ttf”) format(“truetype”),
 url(“fonts/Spire/SPIREQ_L.svg”) format(“svg”);
 }
 
-.catalogo{
-  margin: 15px 0px 0px 7px;
-  font-family:”Spire”;
-  font-size: 60px;
-  text-align: center;
-}
-
 header{
   height: 120px;
   margin-top: 10px;
-  background-color: #F8F9F9;
+  background-color: #F2F3F4;
 }
-
+.catalogo{
+  margin: 15px 0px 0px 7px;
+  font-family:”Spire”;
+  font-size: 4.5vw;
+  text-align: center;
+}
 .alto{
   height: 50%;
 }
@@ -30,24 +28,42 @@ header{
   display: inline-block;
   width: 100%;
   font-family:”Spire”;
-  font-size: 15px;
+  font-size: 1.2vw;
   margin-top: 25px;
-  color: #424949;
+  color: #5F6A6A;
+}
+
+main{
+  height: 100%;
 }
 
 h2{
   font-family:”Spire”;
-  font-size: 40px;
-  margin-top: 20px;
+  font-size: 3.5vw;
+  margin-top: 10px;
   text-align: center;
+  display: inline-block;
+  width: 100%;
+
+}
+.somh2{
+  background-color: #F7F9F9;
+}
+
+h3{
+  font-family:”Spire”;
+  font-size: 2.5vw;
+  text-align: center;
+  color: #424949;
   display: inline-block;
   width: 100%;
 }
 
-h3{
+h4{
+  font-family:”Spire”;
+  font-size: 20px;
   text-align: center;
-  display: inline-block;
-  width: 100%;
+  color: #17202A;
 }
 
 .imgBodega{
@@ -59,10 +75,8 @@ h3{
   width: 100%;
 }
 
-
 .imgVino{
   margin: 70px auto 10px auto;
-  display:block;
 }
 
 .txtVino{
@@ -70,13 +84,8 @@ h3{
   text-align: center;
 }
 
-
-main{
-  height: 100%;
-}
-
 .colum{
-  margin: 15px 0 0 0 ;
+  margin: 20px 0 0 0 ;
 }
 
 .a16{
@@ -89,7 +98,67 @@ main{
   text-align: center;
   margin: auto;
 }
+.sombod{
+  margin: 40px 0 0 0;
+}
 
 footer{
   margin: 50px 0px 0px 0px;
+}
+
+.foot{
+  color: #424949;
+}
+
+
+@media(max-width: 992px){
+  header{
+    height: 90px;
+    margin-top: 10px;
+    background-color: #F2F3F4;
+  }
+  .pestaña{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-family:”Spire”;
+    font-size: 1.2vw;
+    margin-top: 23px;
+    color: #5F6A6A;
+  }
+
+}
+
+@media(max-width: 720px){
+  header{
+    height: 80px;
+    margin-top: 10px;
+    background-color: #F2F3F4;
+  }
+  .pestaña{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-family:”Spire”;
+    font-size: 1.2vw;
+    margin-top: 18px;
+    color: #5F6A6A;
+  }
+  .sombod{
+    margin: 30px 0 0 0;
+  }
+
+}
+
+@media(max-width: 576px){
+  header{
+    height: 70px;
+    margin-top: 10px;
+    background-color: #F2F3F4;
+  }
+
+  .sombod{
+    margin: 25px 0 0 0;
+  }
+
 }
