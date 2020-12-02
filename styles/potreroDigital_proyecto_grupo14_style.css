@@ -11,12 +11,12 @@ url(“fonts/Spire/SPIREQ_L.svg”) format(“svg”);
 header{
   height: 120px;
   margin-top: 10px;
-  background-color: #F2F3F4;
+  background-color: #F7F9F9;
 }
 .catalogo{
   margin: 15px 0px 0px 7px;
   font-family:”Spire”;
-  font-size: 4.5vw;
+  font-size: 4.3vw;
   text-align: center;
 }
 .alto{
@@ -61,9 +61,9 @@ h3{
 
 h4{
   font-family:”Spire”;
-  font-size: 20px;
+  font-size: 1.56vw;
   text-align: center;
-  color: #17202A;
+  color: #273746;
 }
 
 .imgBodega{
@@ -77,15 +77,23 @@ h4{
 
 .imgVino{
   margin: 70px auto 10px auto;
+  width: 100%;
 }
 
 .txtVino{
   display:block;
   text-align: center;
+  font-size: 1.2vw;
 }
 
 .colum{
   margin: 20px 0 0 0 ;
+}
+
+.aboutUs{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .a16{
@@ -95,19 +103,62 @@ h4{
 
 .p1{
   text-align: justify;
-  text-align: center;
   margin: auto;
+  font-size: 1.2vw;
 }
 .sombod{
   margin: 40px 0 0 0;
 }
 
+form {
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: justify;
+}
+
+input, textarea {
+  width: 320px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  height: 10em;
+}
+.contacto{
+  margin: 40px 0px 0px 0px;
+}
 footer{
   margin: 50px 0px 0px 0px;
 }
 
 .foot{
   color: #424949;
+  font-size: 1.2vw;
 }
 
 
@@ -115,7 +166,7 @@ footer{
   header{
     height: 90px;
     margin-top: 10px;
-    background-color: #F2F3F4;
+    background-color: #F7F9F9;
   }
   .pestaña{
     text-align: center;
@@ -127,14 +178,21 @@ footer{
     color: #5F6A6A;
   }
 
+  .p1{
+    text-align: justify;
+    margin: auto;
+    font-size: 1.5vw;
+  }
+
 }
 
 @media(max-width: 720px){
   header{
     height: 80px;
     margin-top: 10px;
-    background-color: #F2F3F4;
+    background-color: #F7F9F9;
   }
+
   .pestaña{
     text-align: center;
     display: inline-block;
@@ -144,8 +202,31 @@ footer{
     margin-top: 18px;
     color: #5F6A6A;
   }
+
   .sombod{
     margin: 30px 0 0 0;
+  }
+
+  .txtVino{
+    display:block;
+    text-align: center;
+    font-size: 1.7vw;
+  }
+
+  h4{
+    font-family:”Spire”;
+    font-size: 2vw;
+    text-align: center;
+    color: #273746;
+  }
+
+  .imgVino{
+    margin: 60px auto 10px auto;
+    width: 100%;
+  }
+
+  footer{
+    margin: 40px 0px 0px 0px;
   }
 
 }
@@ -154,11 +235,20 @@ footer{
   header{
     height: 70px;
     margin-top: 10px;
-    background-color: #F2F3F4;
+    background-color: #F7F9F9;
   }
 
   .sombod{
-    margin: 25px 0 0 0;
+    margin: 15px 0 0 0;
+  }
+
+  .imgVino{
+    margin: 50px auto 10px auto;
+    width: 100%;
+  }
+
+  footer{
+    margin: 25px 0px 0px 0px;
   }
 
 }
