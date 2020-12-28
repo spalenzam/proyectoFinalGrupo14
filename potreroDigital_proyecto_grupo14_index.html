@@ -8,19 +8,25 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/potreroDigital_proyecto_grupo14_style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container-fluid">
       <header class="row ">
         <div class="col-12 alto">
-          <h1 class="catalogo">CATALOGO DE VINOS</h1>
+          <h1 class="catalogo">WINERY</h1>
         </div>
 
         <nav class="col-12 alto">
           <div class="row d-flex align-items-stretch justify-content-center">
             <div class="col-3 col-sm-3 col-xl-2 ">
               <a class="pestaña fuente" href="potreroDigital_proyecto_grupo14_index.html">INICIO</a>
+            </div>
+
+            <div class="col-3 col-sm-3 col-xl-2 ">
+              <a class="pestaña fuente" href="potreroDigital_proyecto_grupo14_vinos.html">VINOS</a>
             </div>
 
             <div class="col-3 col-sm-3 col-xl-2 ">
@@ -34,24 +40,165 @@
         </nav>
       </header>
 
-      <main class="row ">
-        <div class="somh2 colum col-12">
+      <main class="row">
+        <div class=" somh2 colum col-12">
           <h2>BODEGAS</h2>
         </div>
-        <div class="sombod colum col-12">
-          <a href="potreroDigital_proyecto_grupo14_a16.html"><h3>A16</h3></a>
-          <a href="potreroDigital_proyecto_grupo14_a16.html"><img class="imgBodega" src="images/a16.jpg" alt=""></a>
+
+        <div class="col-md-12 carou d-flex justify-content-center">
+          <div id="carouselExampleIndicators" class="carousel slide colum-12" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="potreroDigital_proyecto_grupo14_a16.html"><img class="d-block w-100 imgBodega" src="images/a16.jpg" alt=""></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>A 16</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="potreroDigital_proyecto_grupo14_achavalFerrer.html"><img class="d-block w-100 imgBodega" src="images/achavalFerrer.jpg" alt=""></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Achaval Ferrer</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="potreroDigital_proyecto_grupo14_CarinaE.html"><img class="d-block w-100 imgBodega" src="images/carinaE.jpg" alt=""></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Carina E</h5>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
 
-        <div class="sombod colum col-12">
-          <a href="potreroDigital_proyecto_grupo14_achavalFerrer.html"><h3>Achaval Ferrer</h3></a>
-          <a href="potreroDigital_proyecto_grupo14_achavalFerrer.html"><img class="imgBodega"  src="images/achavalFerrer.jpg" alt=""></a>
+        <div class="container gallery-container">
+            <h2>GALERÍA DE IMÁGENES</h2>
+            <p class="nombreBo text-center">BODEGA A16</p>
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\a161.jpg">
+                            <img src="images\a161.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\a162.jpg">
+                            <img src="images\a162.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="images\a163.jpg">
+                            <img src="images\a163.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\a164.jpg">
+                            <img src="images\a164.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\a165.jpg">
+                            <img src="images\a165.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\a166.jpg">
+                            <img src="images\a166.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="nombreBo text-center">BODEGA ACHAVAL FERRER</p>
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\acha1.jpg">
+                            <img src="images\acha1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\acha2.jpg">
+                            <img src="images\acha2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="images\acha3.jpg">
+                            <img src="images\acha3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\acha4.jpg">
+                            <img src="images\acha4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\acha5.jpg">
+                            <img src="images\acha5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\acha6.jpg">
+                            <img src="images\acha6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="nombreBo text-center">BODEGA CARINA E</p>
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\car1.jpg">
+                            <img src="images\car1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\car2.jpg">
+                            <img src="images\car2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="images\car3.jpg">
+                            <img src="images\car3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\car4.jpg">
+                            <img src="images\car4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\car5.jpg">
+                            <img src="images\car5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a class="lightbox" href="images\car6.jpg">
+                            <img src="images\car6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="sombod colum col-12">
-          <a href="potreroDigital_proyecto_grupo14_CarinaE.html"><h3>CarinaE</h3></a>
-          <a href="potreroDigital_proyecto_grupo14_CarinaE.html"><img class="imgBodega" src="images/carinaE.jpg" alt=""></a>
-        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
 
       </main>
 
@@ -69,6 +216,9 @@
 
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
